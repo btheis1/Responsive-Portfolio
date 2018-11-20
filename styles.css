@@ -1,0 +1,56 @@
+header {
+    
+}
+
+.name {
+}
+
+.links {
+    text-align: right;
+}
+
+.container {
+    width: 66%;
+    margin: 10px auto;
+}
+.headshot {
+    float: left;
+}
+
+.about {
+    float: right;
+    font-size: 15px;
+}
+
+.img-card {
+    position: relative;
+    float: left;
+    width: 33.33%;
+}
+  
+img {
+    height: 200px;
+    width: 200px;
+}
+
+.img-title {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.comment {
+    height: 200px;
+    width: 300px;
+}
+  
